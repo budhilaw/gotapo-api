@@ -30,6 +30,22 @@ go mod download
 go run cmd/server/main.go
 ```
 
+## Docker
+
+### Using Docker Compose (recommended)
+```bash
+docker compose up -d
+```
+
+### Using Docker directly
+```bash
+# Build the image
+docker build -t tapo-api .
+
+# Run the container
+docker run -d -p 3000:3000 --name tapo-api tapo-api
+```
+
 ## Configuration
 
 Environment variables:
