@@ -176,6 +176,11 @@ curl -X PUT "http://localhost:3000/api/cameras/192.168.1.100/led" \
 go test ./... -v
 ```
 
+## Credits
+
+This project is based on the protocol reverse-engineering from:
+- [pytapo](https://github.com/JurajNyiri/pytapo) - Python library for Tapo cameras by Juraj Nyiri
+
 ## License
 
 MIT
